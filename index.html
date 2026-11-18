@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color:  #f0f0f0;
+        }
+        .mode { 
+            background-color: #6d0f0f;
+        }
+        button {
+            background-color: blue;
+        }
+    </style>
+    </main>
+        <button onclick="mudarTema()">Alterar tema</button>
+        <h1 id="titulo">Desenvolvimento Web</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim voluptatem dolor fugit explicabo laborum. Asperiores vero, tenetur itaq<strong>similique</strong>strogm
+        magnam dolorem, blanditiis eos, enim ab accusantium voluptate quaerat repellat optio.p>
+        <h2>HTML - Liguagem de marcação de Hipertexto</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <h6> Ultimo nivel de titulo</h6>
+        <!--link externo -->
+         <a href="https://google.com.br">Ir para o google</a>
+         <!-- links interno -->
+          <a href="segundapagina.html" target="_blank" rel="noopener noreferrer">Ir para detalhes</a>
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1280px-HTML5_logo_and_wordmark.svg.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=thumbnail" alt="icone HTML" width="300" height="200">
+    </main>
+    <script>
+        function mudarTema() {
+            document.body.classList.toggle('mode')
+        }
+    </script>
+</body>
+</html>
